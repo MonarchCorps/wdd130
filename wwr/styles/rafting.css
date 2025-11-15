@@ -67,6 +67,7 @@ nav a {
 
 nav a:hover {
     color: var(--primary-color);
+    background-color: var(--accent2-color);
 }
 
 h1,
@@ -100,6 +101,8 @@ h1 {
 }
 
 .hero article {
+    position: absolute;
+    bottom: 0;
     background-color: rgba(38, 70, 83, 0.85);
     color: white;
     padding: 30px;
@@ -127,8 +130,8 @@ section {
 }
 
 section h2 {
-    background-color: #1a3a52;
-    color: white;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
     padding: 20px;
     text-align: center;
     font-size: 2em;
@@ -143,8 +146,8 @@ section p {
 }
 
 footer {
-    background-color: #1a3a52;
-    color: white;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -154,7 +157,7 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .socialmedia {
