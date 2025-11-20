@@ -32,8 +32,10 @@ footer {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     align-items: center;
+    justify-content: space-around;
     padding: 20px;
     background-color: white;
 }
@@ -173,4 +175,20 @@ footer p {
 .socialmedia img {
     width: 40px;
     height: 40px;
+}
+
+
+.adventure-grid {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
