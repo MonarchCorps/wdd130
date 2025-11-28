@@ -220,13 +220,9 @@ figure img {
 }
 
 .company-details p {
-    margin: 5px 0;
+    padding: 5px 0;
     color: var(--accent1-color);
     font-weight: bold;
-}
-
-.company-details p {
-    padding: 5px 0;
 }
 
 .map {
